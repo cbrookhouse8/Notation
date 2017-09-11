@@ -1,0 +1,6 @@
+Archive/*
+*.pdf
+*demo*
+*Demo*
+*scratch*
+.DS_Store
