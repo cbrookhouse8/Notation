@@ -7,7 +7,9 @@ gtr = \relative c' {
 	
 	% Notes
 
-	a8 c16 d a d e f g, a b e, f a c e
+	<g, b''>8 [ d'] <g e'\2> [ b] <g' b,,> [ d,] g16 [ <g d'>] e'8 |
+
+	<c, e'>8 [ e] g [ <c e>] <a,\6 d''> [ <e' c''>]
 }
 
 \score { \new StaffGroup  <<
