@@ -18,6 +18,9 @@ gtr = \relative c' {
 	<g, b'> [ g'] e <d b'>16 [ d'] <d,, a''>8  [ d'] e [ <d b'>] |
 
 	<g, b'> [ g'] e <d b'>16 [ d'] <c, e'\2>8 [ g'] d\5 [ c] |
+
+	a e''\3 a,\4 fis'\2 b,\4 g'\2 d, b'' |
+
 }
 
 \score { \new StaffGroup  <<
