@@ -21,6 +21,10 @@ gtr = \relative c' {
 
 	a e''\3 a,\4 fis'\2 b,\4 g'\2 d, b'' |
 
+	<fis\2 b,\4> [ a,\4] e2. |
+
+
+
 }
 
 \score { \new StaffGroup  <<
