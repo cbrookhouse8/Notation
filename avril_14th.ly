@@ -23,7 +23,7 @@ gtr = \relative c' {
 
 	<fis\2 b,\4> [ a,\4] e2. |
 
-
+	a,8 e''\3 a,\4 fis'\2 b,\4 g'\2 d, b'' |
 
 }
 
