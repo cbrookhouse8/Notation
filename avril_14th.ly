@@ -27,8 +27,7 @@ gtr = \relative c' {
 
 	\autoBeamOn
 
-	% TODO: this is only two beats of the four
-	<c, e g b>4~ <c e g b>8 a'8 |
+	<c, e g b>4~ <c e g b>8 a'8 <a, e' b'>4~ b4
 
 }
 
