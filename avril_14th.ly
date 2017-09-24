@@ -19,15 +19,16 @@ gtr = \relative c' {
 
 	<g, b'> [ g'] e <d b'>16 [ d'] <c, e'\2>8 [ g'] d\5 [ c] |
 
-	a e''\3 a,\4 fis'\2 b,\4 g'\2 d, b'' |
+	\autoBeamOff
+	
+	a e''16\3 [ a,\4] fis'\2 [ b,\4] g'\2 [ d,] b''8 <fis\2 b,\4>16 a,8\4~ a16\4 e8 |
 
-	<fis\2 b,\4> [ a,\4] e2. |
+	a, e''16\3 [ a,\4] fis'\2 [ b,\4] g'\2 [ d,] b''8 <fis\2 b,\4>16 a,8\4~ a16\4 <e'\3 b\4>8 |
 
-	a,8 e''\3 a,\4 fis'\2 b,\4 g'\2 d, b'' |
+	\autoBeamOn
 
-	<fis\2 b,\4> [ a,\4] <e'\3 b\4>2. |
-
-	<c, e g b>2~ <c e g b>4. a'8 |
+	% TODO: this is only two beats of the four
+	<c, e g b>4~ <c e g b>8 a'8 |
 
 }
 
