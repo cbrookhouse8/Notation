@@ -7,13 +7,13 @@ gtr = \relative c' {
 	
 	% Notes
 
-	<g, b''>8 [ d'] <g e'\2> [ b] <g' b,,> [ d,] g16 [ <g d'>] e'8 |
+	<g, b''>8 [ d'] <g e'\2> [ b] <g' b,,> d, g <g d'>16 [ e'] |
 
 	<c, e'>8 [ e] g [ <c e>] <a,\6 d''> [ <e' c''>] <c'\4 b'> [ <b\4 g'>] |
 
-	<g, b''>8 [ d'] <g e'\2> [ b] <g' b,,> [ d,] g16 [ <g d'>] e'8 |
+	<g, b''>8 [ d'] <g e'\2> [ b] <g' b,,> d, g <g d'>16 [ e'] |
 	
-	<c, e'> [ e] g [ <c e>] a, [ e'] c' [ b] |
+	<c, e'>8 [ e] g [ <c e>] a, [ e'] c' [ b] |
 
 	<g, b'> [ g'] e <d b'>16 [ d'] <d,, a''>8  [ d'] e [ <d b'>] |
 
@@ -32,6 +32,8 @@ gtr = \relative c' {
 }
 
 \score { \new StaffGroup  <<
-  \new Staff  { \clef "treble_8" << \gtr >> }
-  \new TabStaff \with { stringTunings = #guitar-drop-d-tuning } \gtr
->> }
+	\new Staff  { \clef "treble_8" << \gtr >> }
+	\new TabStaff \with { stringTunings = #guitar-drop-d-tuning } \gtr
+>> 
+	%\midi { }
+}
