@@ -24,16 +24,17 @@ gtr = \relative c' {
 	a e''16\3 [ a,\4] fis'\2 [ b,\4] g'\2 [ d,] b''8 <fis\2 b,\4>16 a,8\4~ a16\4 e8 |
 
 	a, e''16\3 [ a,\4] fis'\2 [ b,\4] g'\2 [ d,] b''8 <fis\2 b,\4>16 a,8\4~ a16\4 <e'\3 b\4>8 |
+	
+	% Chords section
 
-	\autoBeamOn
+	<c, e g b>4~ <c e g b>8 a'8 <a, e' b'>4~ b4 |
 
-	<c, e g b>4~ <c e g b>8 a'8 <a, e' b'>4~ b4
-
+	<b g' d'>16 [ e'] d8 b4 <g, c e g>4~ <g c e g>8 d''8
 }
 
 \score { \new StaffGroup  <<
 	\new Staff  { \clef "treble_8" << \gtr >> }
 	\new TabStaff \with { stringTunings = #guitar-drop-d-tuning } \gtr
 >> 
-	%\midi { }
+	\midi { }
 }
