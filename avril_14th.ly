@@ -39,7 +39,10 @@ gtr = \relative c' {
 
 	% Plucked ascending chords
 
-	<a g,,>16 [ b] d,,8\5 [ e\5] a16\4 [ a'] <a,,\6 b''>8 [ g'\5] a8\4 b16\4 b' |
+	<a g,,>16 [ b] d,,8\5 [ e\5] a16\4 [ a'] <a,,\6 b''>8 [ g'\5] a8\4 b16\4 [ b'] |
+
+	% not sure how to do the end of this bar
+	<d c,,>16 [ e d g,\3] d'8\2 [ b\2] <a,, b'> [ g''\3] c,\4 [ b]
 
 }
 
@@ -48,5 +51,5 @@ gtr = \relative c' {
 	\new TabStaff \with { stringTunings = #guitar-drop-d-tuning } \gtr
 	>> 
 
-	\midi { \tempo 4 = 80 }
+	%\midi { \tempo 4 = 80 }
 }
