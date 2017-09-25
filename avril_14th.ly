@@ -32,6 +32,11 @@ gtr = \relative c' {
 	<b g' d'>16 [ e'] d8 b4 <g, c e g>4~ <g c e g>8 d''8 |
 
 	<e,, g' b>4~ <e g' b>8 a'8 <d,, d' g>4~ <d d' g>8 b'' |
+
+	%<b g' d'>16 [ e'] d8 b4 <g, c e g>4~ <g c e g>8 d''8 |
+
+	<g, b d' e>8 [ e'] b'4 <g c,> e' |
+
 }
 
 \score { \new StaffGroup  <<
@@ -39,7 +44,5 @@ gtr = \relative c' {
 	\new TabStaff \with { stringTunings = #guitar-drop-d-tuning } \gtr
 	>> 
 
-	\midi { 
-		\tempo 4 = 80
-	}
+	%\midi { \tempo 4 = 80 }
 }
