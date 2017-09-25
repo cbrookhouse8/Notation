@@ -25,7 +25,7 @@ gtr = \relative c' {
 
 	a, e''16\3 [ a,\4] fis'\2 [ b,\4] g'\2 [ d,] b''8 <fis\2 b,\4>16 a,8\4~ a16\4 <e'\3 b\4>8 |
 	
-	% Chords section
+	% Bassy section
 
 	<c, e g b>4~ <c e g b>8 a'8 <a, e' b'>4~ b4 |
 
@@ -37,6 +37,10 @@ gtr = \relative c' {
 
 	<g, b d' e>8 [ e'] b'4 <g c,> e' |
 
+	% Plucked ascending chords
+
+	<a g,,>16 [ b] d,,8\5 [ e\5] a16\4 [ a'] <a,,\6 b''>8 [ g'\5] a8\4 b16\4 b' |
+
 }
 
 \score { \new StaffGroup  <<
@@ -44,5 +48,5 @@ gtr = \relative c' {
 	\new TabStaff \with { stringTunings = #guitar-drop-d-tuning } \gtr
 	>> 
 
-	%\midi { \tempo 4 = 80 }
+	\midi { \tempo 4 = 80 }
 }
