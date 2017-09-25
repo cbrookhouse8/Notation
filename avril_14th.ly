@@ -1,5 +1,8 @@
 \version "2.18.0"
 
+% This is a transcription of 1postpwned's arrangement for classical guitar of 
+% Avril 14th by Aphex Twin: https://www.youtube.com/watch?v=-4-VkJZzRNA
+
 gtr = \relative c' {
 	% Settings
 	\set TabStaff.restrainOpenStrings = ##t
