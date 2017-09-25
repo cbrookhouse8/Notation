@@ -29,12 +29,17 @@ gtr = \relative c' {
 
 	<c, e g b>4~ <c e g b>8 a'8 <a, e' b'>4~ b4 |
 
-	<b g' d'>16 [ e'] d8 b4 <g, c e g>4~ <g c e g>8 d''8
+	<b g' d'>16 [ e'] d8 b4 <g, c e g>4~ <g c e g>8 d''8 |
+
+	<e,, g' b>4~ <e g' b>8 a'8 <d,, d' g>4~ <d d' g>8 b'' |
 }
 
 \score { \new StaffGroup  <<
 	\new Staff  { \clef "treble_8" << \gtr >> }
 	\new TabStaff \with { stringTunings = #guitar-drop-d-tuning } \gtr
->> 
-	\midi { }
+	>> 
+
+	\midi { 
+		\tempo 4 = 80
+	}
 }
