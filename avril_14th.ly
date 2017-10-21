@@ -24,7 +24,7 @@ gtr = \relative c' {
 
 	\autoBeamOff
 	
-	a e''16\3 [ a,\4] fis'\2 [ b,\4] g'\2 [ d,] b''8 <fis\2 b,\4>16 a,8\4~ a16\4 e8 |
+	a e''16\3 [ a,\4] fis'\2 [ b,\4] g'\2 [ d,] b''8 <fis\2 b,\4>16 a,8\4~ a16\4 e8\5 |
 
 	a, e''16\3 [ a,\4] fis'\2 [ b,\4] g'\2 [ d,] b''8 <fis\2 b,\4>16 a,8\4~ a16\4 <e'\3 b\4>8 |
 	
@@ -34,7 +34,7 @@ gtr = \relative c' {
 
 	<b g' d'>16 [ e'] d8 b4 <g, c e g>4 d''4 |
 
-	<e,, g' b>4~ <e g' b>8. a'16 <d,, d' g>4~ <d d' g>8. b16'' |
+	<e,, g' b>4~ <e g' b>8. a'16 <d,, d' g>4~ <d d' g>8. b''16 |
 
 	<g, b d' e>8 [ e'] b'4 <g c,> e' |
 
