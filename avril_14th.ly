@@ -42,8 +42,9 @@ gtr = \relative c' {
 
 	<a g,,>16 [ b] d,,8\5 [ e\5] a16\4 [ a'] <a,,\6 b''>8 [ g'\5] a8\4 b16\4 [ b'] |
 
-	% not sure how to do the end of this bar
-	<d c,,>16 [ e d g,\3] d'8\2 [ b\2] <a,, b'> [ g''\3] c,\4 [ b] |
+	<d c,,>16 [ e d g,\3] d'8\2 [ b\2] a,,8 g' c4 |
+
+	<a,, b'> [ g''\3] c,\4 [ b] |
 
 	e,16\6 [ b''\2] g'8\1 b,, e' c,,16\6 a'\4 a'\2 g\2 d, g b,\6 e' |
 
@@ -56,5 +57,5 @@ gtr = \relative c' {
 	\new TabStaff \with { stringTunings = #guitar-drop-d-tuning } \gtr
 	>> 
 
-	\midi { \tempo 4 = 80 }
+	%\midi { \tempo 4 = 80 }
 }
