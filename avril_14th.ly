@@ -44,7 +44,7 @@ gtr = \relative c' {
 
 	<d c,,>16 [ e d g,\3] d'8\2 [ b\2] a,,8 g' c4 |
 
-	b16 g'' g,,8 e'' <c,, g''> <b a''> g'8\5 b16\4 b'\2 d,\4 b'\2 |
+	b16 g'' g,,8 e'' <c,,\6 g''\3> <b\6 a''\2> g'8\5 b16\4 b'\2 d,\4 b'\2 |
 
 	<a,\5 d'>16 e'' <g,,\5 e'\1>8 c\4 <e b'\2> g,\3 b\2 d'16 d d8 |
 }
@@ -54,5 +54,5 @@ gtr = \relative c' {
 	\new TabStaff \with { stringTunings = #guitar-drop-d-tuning } \gtr
 	>> 
 
-	\midi { \tempo 4 = 80 }
+	%\midi { \tempo 4 = 80 }
 }
