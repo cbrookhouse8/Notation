@@ -36,7 +36,7 @@ gtr = \relative c' {
 
 	<e,, g' b>4~ <e g' b>8. a'16 <d,, d' g>4~ <d d' g>8. b''16 |
 
-	<g, b d' e>8 [ e'] b'4 <g c,> e' |
+	<g, b d'>16 [ e''] e,8 b'4 <g c,>4 e'4 |
 
 	% Plucked ascending chords
 
